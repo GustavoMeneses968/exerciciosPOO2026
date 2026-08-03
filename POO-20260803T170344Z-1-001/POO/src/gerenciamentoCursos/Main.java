@@ -8,6 +8,7 @@ public class Main {
         Disciplina disciplina = new Disciplina("LP", "Ensinar metodos sort, POO e bla bla bla bla preguiça");
         Sala sala = new Sala();
 
+        sala.setNome("primeiro");
         sala.adcionarAlunos(academico);
         sala.adcionarDisciplina(disciplina);
         sala.adcionarProf(prof);
